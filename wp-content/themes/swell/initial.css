@@ -831,10 +831,10 @@ a.tp_ins_bg_sup_btn:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: -10px;
-    left: 50px;
-    width: 170px;
-    height: calc(100% + 20px);
+    top: -5px;
+    left: 5%;
+    width: 90%;
+    height: calc(100% + 10px);
     background-color: var(--cor-1);
     opacity: .7;
 }
@@ -1581,12 +1581,55 @@ p.pst_imv_sign_rep_item_text {
 
 /* Small devices (landscape phones, less than 768px)*/
 
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    .pg_blg_title_section h1, .sgl_post_title_section h1 {
+        font-size: 2rem;
+    }
+    .single-post .sgl_post_title_section .d-flex {
+        display: block !important;
+    }
+    .single-post .sgl_post_title_section .button {
+        margin: 10px 0;
+    }
+    .pst_imv_loc_wrapper {
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+    .pst_imv_loc_wrapper .ms-5 {
+        margin-left: 0!important;
+    }
+    .page-template-template-agendamento-visita #tns1 > .tns-item {
+        max-width: 340px;
+    }
+    .site-header-row {
+        min-height: 75px;
+    }
+
+    .tp_hm_newsletter {
+        display: none;
+    }
+
+    a.button_outline:hover, .button_outline:hover, button.button_outline:hover,
+    .single-post .sgl_post_title_section .button:hover,
+    .zoom_effect:hover {
+        transform: scale(.95, .95);
+    }
+    .tp_ins_dif_rep_item_text,
+    .tp_ins_dep_rep_item_text,
+    .tp_ins_dep_rep_item_name {
+        font-size: .8em;
+    }
+}
 
 
 /* Medium devices (tablets, less than 992px)*/
 
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+    .sidebar_detail {
+        display: none;
+    }
+}
 
 
 /* Large devices (desktops, less than 1200px)*/

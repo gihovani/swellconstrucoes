@@ -142,7 +142,7 @@ get_header();
 								</div>
 							</div>
 						</div>
-						<div class="col-12 col-md-6 p-5 d-flex justify-content-center align-items-center">
+						<div class="col-12 col-sm-12 col-md-6 p-5 d-flex justify-content-center align-items-center">
 							<?php if (have_rows('tp_ins_selos_rep')) : ?>
 								<div class="tp_ins_selos_rep_tns">
 									<?php while (have_rows('tp_ins_selos_rep')) :

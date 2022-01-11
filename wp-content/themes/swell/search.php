@@ -119,11 +119,11 @@ get_header();
 		<section class="pg_blg_posts_section mt-5">
 			<div class="container">
 				<div class="row">
-					<div class="col-10">
-						<h3>NADA ENCONTRADO</h3>
+					<div class="col-12 col-lg-10">
+						<h3>Nenhuma notícia encontrada.</h3>
 					</div>
 					<!-- SIDEBAR -->
-					<div class="col-2 position-relative">
+					<div class="col-12 col-lg-2 position-relative">
 
 						<!-- SIDEBAR  -->
 						<?php get_template_part('template-parts/content', 'sidebar'); ?>
